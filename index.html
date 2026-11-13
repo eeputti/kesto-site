@@ -2,32 +2,206 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="apple-itunes-app" content="app-id=6761369504">
-<title>kesto — the kesto system</title>
-<style>
-  :root { color-scheme: light; }
-  body { margin: 0; background: #ffffff; color: #111111; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  main { max-width: 680px; margin: 0 auto; padding: 48px 20px 80px; }
-  .brand { font-weight: 800; letter-spacing: -0.02em; font-size: 15px; color: #111; text-decoration: none; }
-  h1 { font-size: 40px; line-height: 1.05; letter-spacing: -0.03em; margin: 28px 0 8px; }
-  h2 { font-size: 18px; margin: 32px 0 6px; }
-  p, li { color: #333; }
-  ul { padding-left: 20px; }
-  a { color: #111; }
-  .store { display: inline-block; margin-top: 12px; padding: 14px 24px; background: #111; color: #fff; border-radius: 999px; font-weight: 700; font-size: 15px; text-decoration: none; }
-  nav { margin-top: 48px; font-size: 14px; display: flex; gap: 16px; flex-wrap: wrap; }
-</style>
+<title>kesto: hybrid training for people who lift and run</title>
+<meta name="description" content="one plan for running and lifting. get the free 4-week hybrid program, the kesto app and the winter arc bundle.">
+<meta property="og:title" content="kesto: built to last">
+<meta property="og:description" content="hybrid training for people who lift and run. start with the free 4-week program.">
+<meta property="og:image" content="https://kestosystem.com/assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="assets/img/k.png">
+<link rel="apple-touch-icon" href="assets/img/k.png">
+<link rel="preload" href="assets/fonts/inter-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/site.css">
 </head>
-<body>
-<main>
-<a class="brand" href="./">kesto</a>
-<h1>the kesto system</h1>
-<p>one training plan for running and lifting that fits your real week. built to endure.</p>
-<p>out now on the app store.</p>
-<p><a class="store" href="https://apps.apple.com/app/kesto-hybrid-training/id6761369504">get kesto app</a></p>
+<body data-page="home" data-crew="crew/">
 
-<nav><a href="./privacy/">privacy policy</a><a href="./terms/">terms of use</a><a href="./support/">support</a></nav>
+<header class="top">
+  <div class="wide bar">
+    <a class="brand" href="./" aria-label="kesto home"><img src="assets/img/k.png" alt=""><span>kesto</span></a>
+    <nav class="nav">
+      <a href="products/" data-t="nav_products">products</a>
+      <a href="#join" data-t="nav_program">free program</a>
+      <a href="#app" data-t="nav_app">the app</a>
+      <a href="support/" data-t="nav_support">support</a>
+    </nav>
+    <a class="btn sm" href="#start" data-t="nav_start">start here</a>
+  </div>
+</header>
+
+<main>
+<section class="black hero flush" data-hero>
+  <div class="col center">
+    <img class="logo" src="assets/img/k-white.png" alt="">
+    <div class="eyebrow">hybrid training for people who lift and run</div>
+    <div class="sp-24"></div>
+    <h1 class="disp">Built<br>to last.</h1>
+    <p class="lead">one plan for running and lifting. start with the free 4-week program.</p>
+    <div class="join" id="join">
+      <form data-join="hero" novalidate>
+        <input type="email" name="email" placeholder="your email" autocomplete="email" inputmode="email" aria-label="your email" required>
+        <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn" type="submit">lock in</button>
+      </form>
+      <div class="msg" aria-live="polite"></div>
+      <p class="note">drop your email so we know you're serious about getting better. free, no strings attached, unsubscribe anytime.</p>
+    </div>
+    <div class="sp-24"></div>
+    <a class="link" href="https://apps.apple.com/app/kesto-hybrid-training/id6761369504" data-t="hero_app" style="color:#fff">or get the kesto app →</a>
+  </div>
+
+  <div class="mock rv">
+    <a class="wide-tile banner-link" href="https://apps.apple.com/app/kesto-hybrid-training/id6761369504" data-t="hero_banner"><img class="banner" src="assets/img/app-banner.webp" alt="kesto: hybrid training, iphone app on the app store. train, recover or rest. kesto tells you every day." width="1200" height="860"></a>
+    <a class="ptile" href="products/#plan12" data-t="tile_plan12"><img src="assets/img/runner-bw.webp" alt=""><b>12-week<br>plan</b><span>every session, written out</span></a>
+    <a class="ptile" href="products/#wsb" data-t="tile_wsb"><img src="assets/img/watch-bw.webp" alt=""><b>weekly<br>structure<br>build</b><span>build your own week</span></a>
+    <a class="ptile" href="products/#fuel" data-t="tile_fuel"><img src="assets/img/shoes-bw.webp" alt=""><b>kesto<br>fuel</b><span>nutrition, in grams</span></a>
+    <a class="ptile" href="products/#handbook" data-t="tile_handbook"><img src="assets/img/runner3-bw.webp" alt=""><b>mindset<br>handbook</b><span>for the hard days</span></a>
+  </div>
+</section>
+
+<section class="flush">
+  <div class="wide">
+    <div class="stats">
+      <div class="stat"><b data-count="30" data-suffix="K">30K</b><span>on tiktok</span></div>
+      <div class="stat"><b data-count="380" data-suffix="+">380+</b><span>in the kesto crew</span></div>
+      <div class="stat"><b data-count="4">4</b><span>week program, free</span></div>
+      <div class="stat"><b data-count="3">3</b><span>free guided workouts in the app</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="start">
+  <div class="col center rv">
+    <h2 class="disp">Start<br>here.</h2>
+    <div class="sp-24"></div>
+    <p class="lead">pick where you are.</p>
+  </div>
+  <div class="sp-32"></div>
+  <div class="wide cards">
+    <div class="card dark rv">
+      <div class="tag">free, by email</div>
+      <div class="t">Free 4-week<br>program</div>
+      <p>the hybrid athlete system: 4 weeks of running, lifting and recovery in one plan, built so you get fitter without burning out.</p>
+      <div class="meta">
+        <div>2 to 3 runs and 2 gym sessions a week</div>
+        <div>week 4 is a recovery week</div>
+        <div>pdf straight away, then one usable tip a week</div>
+      </div>
+      <div class="row"><span class="price">free</span><a class="btn white" href="#join" data-t="card_program">get the program</a></div>
+    </div>
+
+    <div class="card rv" id="app">
+      <div class="tag">iphone app</div>
+      <div class="t">Kesto<br>app</div>
+      <p>tell kesto your goal, the days you can train and where you train. it builds one plan for running and strength together and tells you what to do today.</p>
+      <div class="meta">
+        <div>runs and gym sessions placed so they help each other</div>
+        <div>skip a session or go on vacation, and the weeks ahead reshape</div>
+        <div>works with apple health and your watch</div>
+      </div>
+      <div class="row"><span class="price">free download</span><a class="btn" href="https://apps.apple.com/app/kesto-hybrid-training/id6761369504" data-t="card_app">app store</a></div>
+      <div class="small">first 3 guided workouts free, then kesto premium.</div>
+    </div>
+
+    <div class="card rv">
+      <div class="tag">all 4 kesto guides</div>
+      <div class="t">Winter arc<br>bundle</div>
+      <p>the 12-week plan, weekly structure build, kesto fuel and the mindset handbook. instant pdf download.</p>
+      <div class="meta">
+        <div>12 weeks of runs and lifts, every session written out</div>
+        <div>nutrition in grams, not guesses</div>
+        <div>the mindset for the days you don't feel like it</div>
+      </div>
+      <div class="row"><span class="price">34 €<s>62 € one by one</s></span><a class="btn" href="https://eelispur.gumroad.com/l/winter-arc-bundle" data-t="card_bundle">get all 4</a></div>
+    </div>
+
+    <div class="card rv">
+      <div class="tag">free for the crew</div>
+      <div class="t">Build your<br>week</div>
+      <p>answer 3 questions and get a hybrid week you can start on monday.</p>
+      <div class="meta">
+        <div>3 to 6 training days</div>
+        <div>heavy legs and hard runs kept apart</div>
+        <div>unlocks with the free program</div>
+      </div>
+      <div class="row"><span class="price">free</span><a class="btn" href="#join" data-t="card_week">unlock it</a></div>
+    </div>
+  </div>
+  <div class="sp-32"></div>
+  <div class="center"><a class="link" href="products/" data-t="all_products">see all products →</a></div>
+</section>
+
+<section id="rules">
+  <div class="col center rv">
+    <h2 class="disp">The kesto<br>rules.</h2>
+    <div class="sp-24"></div>
+    <p class="lead">the stuff that keeps you going. one of these lands in your inbox every week.</p>
+  </div>
+  <div class="marquee" aria-label="kesto rules">
+    <div class="track">
+      <div class="rule"><div class="eyebrow">easy runs, properly</div><b>The talk<br>test.</b><img src="assets/img/runner-bw.webp" alt=""><p>full sentences, the whole run. if you can't, slow down.</p></div>
+      <div class="rule"><div class="eyebrow">the one rule</div><b>Never miss<br>twice.</b><img src="assets/img/roller-bw.webp" alt=""><p>missed a session? don't make it up. do the next one like nothing happened.</p></div>
+      <div class="rule"><div class="eyebrow">hard days hard</div><b>80%<br>easy.</b><img src="assets/img/shoes-bw.webp" alt=""><p>most of your running should feel easy. that's what makes the hard days work.</p></div>
+      <div class="rule"><div class="eyebrow">legs and runs</div><b>48<br>hours.</b><img src="assets/img/barbell-bw.webp" alt=""><p>keep heavy legs and hard runs about 48 hours apart.</p></div>
+      <div class="rule"><div class="eyebrow">for the dark days</div><b>The 20-<br>minute<br>rule.</b><img src="assets/img/runner3-bw.webp" alt=""><p>don't decide whether to train. decide to do 20 minutes.</p></div>
+      <div class="rule"><div class="eyebrow">every sunday</div><b>The sunday<br>plan.</b><img src="assets/img/watch-bw.webp" alt=""><p>10 minutes: lift days, run days, the long run, rest. a written week gets done.</p></div>
+      <!-- copy for the loop -->
+      <div class="rule" aria-hidden="true"><div class="eyebrow">easy runs, properly</div><b>The talk<br>test.</b><img src="assets/img/runner-bw.webp" alt=""><p>full sentences, the whole run. if you can't, slow down.</p></div>
+      <div class="rule" aria-hidden="true"><div class="eyebrow">the one rule</div><b>Never miss<br>twice.</b><img src="assets/img/roller-bw.webp" alt=""><p>missed a session? don't make it up. do the next one like nothing happened.</p></div>
+      <div class="rule" aria-hidden="true"><div class="eyebrow">hard days hard</div><b>80%<br>easy.</b><img src="assets/img/shoes-bw.webp" alt=""><p>most of your running should feel easy. that's what makes the hard days work.</p></div>
+      <div class="rule" aria-hidden="true"><div class="eyebrow">legs and runs</div><b>48<br>hours.</b><img src="assets/img/barbell-bw.webp" alt=""><p>keep heavy legs and hard runs about 48 hours apart.</p></div>
+      <div class="rule" aria-hidden="true"><div class="eyebrow">for the dark days</div><b>The 20-<br>minute<br>rule.</b><img src="assets/img/runner3-bw.webp" alt=""><p>don't decide whether to train. decide to do 20 minutes.</p></div>
+      <div class="rule" aria-hidden="true"><div class="eyebrow">every sunday</div><b>The sunday<br>plan.</b><img src="assets/img/watch-bw.webp" alt=""><p>10 minutes: lift days, run days, the long run, rest. a written week gets done.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="crew">
+  <div class="col center rv">
+    <h2 class="disp">Join the<br>kesto crew.</h2>
+    <div class="sp-24"></div>
+    <p class="lead">people who lift and run, and don't want to pick one. the free 4-week program comes first, then one email a week with one thing you can use the same week.</p>
+    <div class="join light">
+      <form data-join="crew" novalidate>
+        <input type="email" name="email" placeholder="your email" autocomplete="email" inputmode="email" aria-label="your email" required>
+        <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn" type="submit">lock in</button>
+      </form>
+      <div class="msg" aria-live="polite"></div>
+      <p class="note">free, no strings attached, unsubscribe anytime.</p>
+    </div>
+    <div class="sp-24"></div>
+    <div class="small"><a href="https://www.tiktok.com/@kesto.system" data-t="tiktok">tiktok</a> &nbsp; <a href="https://www.instagram.com/kesto.co/" data-t="instagram">instagram</a> &nbsp; <a href="https://www.threads.com/@kesto.co" data-t="threads">threads</a> &nbsp; <a href="https://www.youtube.com/@kestosystem" data-t="youtube">youtube</a></div>
+  </div>
+</section>
+
+<section class="black">
+  <div class="col center rv">
+    <a class="banner-link" href="https://apps.apple.com/app/kesto-hybrid-training/id6761369504" data-t="close_banner"><img src="assets/img/app-banner.webp" alt="become hybrid with kesto. train, recover or rest. kesto tells you every day." width="1200" height="860" loading="lazy"></a>
+    <div class="sp-32"></div>
+    <a class="btn white" href="https://apps.apple.com/app/kesto-hybrid-training/id6761369504" data-t="close_app">get kesto on the app store</a>
+    <div class="sp-24"></div>
+    <div class="small">free download. first 3 guided workouts free.</div>
+  </div>
+</section>
 </main>
+
+<footer>
+  <div class="col">
+    <img class="k" src="assets/img/k.png" alt="kesto">
+    <div><b>built to last.</b></div>
+    <div class="links">
+      <a href="products/">products</a><a href="crew/">free program</a><a href="https://apps.apple.com/app/kesto-hybrid-training/id6761369504">app store</a><a href="support/">support</a><a href="privacy/">privacy</a><a href="terms/">terms</a>
+    </div>
+    <div class="small">© 2026 kesto. questions: <a href="mailto:eelis@kestosystem.com">eelis@kestosystem.com</a></div>
+  </div>
+</footer>
+
+<div class="sticky"><a class="btn block" href="#join" data-t="sticky_program">get the free 4-week program</a></div>
+
+<script src="assets/site.js" defer></script>
+<script src="https://gumroad.com/js/gumroad.js" defer></script>
 </body>
 </html>
